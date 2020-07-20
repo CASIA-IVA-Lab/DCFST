@@ -12,27 +12,8 @@ Download the weights of DCFST-18: https://drive.google.com/file/d/1MdTSAEOlsb-MK
 
 Download the weights of DCFST-50: https://drive.google.com/file/d/12Ctc6oBz52CO6NyCWFOp3rrCxStILrzM/view?usp=sharing
 
-Requirements:
+Requirements: Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz CPU; TITAN X(Pascal) or TITAN 1080Ti GPU; 8.0 CUDA; numpy  1.16.2; numpy-base  1.16.2; python  3.7.3; torchvision  0.2.1; pytorch  0.4.1; Pillow 5.4.1; pandas 1.0.3
 
-Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz CPU
-
-TITAN X(Pascal) or TITAN 1080Ti GPU
-
-8.0 CUDA
-
-numpy  1.16.2
-
-numpy-base  1.16.2
-
-python  3.7.3
-
-torchvision  0.2.1
-
-pytorch  0.4.1
-
-Pillow 5.4.1
-
-pandas 1.0.3
 *** NOTE *** I have tried my best to let everyone enjoy the above accuracy of DCFST accurately. The ATOM in pytracking is stochastic. In order to eliminate the randomness as much as possible, I make a small change to ATOM. For users, please ensure that the versions of softwares and environments you used are the same as above. There may be more version requirements and those are all I can think of so far.
 
 Project in process ...
