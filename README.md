@@ -47,7 +47,7 @@ I have writed them into the install.sh, just run it!
 
 *** NOTE *** I have tried my best to let everyone enjoy the above accuracy of DCFST accurately. The ATOM in pytracking is stochastic. In order to eliminate the randomness as much as possible, I make a small change to ATOM. For users, please ensure that the versions of softwares and environments you used are the same as above. There may be more version requirements and those are all I can think of so far.
 
-##VOT RUN
+## VOT RUN
 When you would like to run VOT2018 or VOT2019, please manually change the following two places. (In fact, it can be more convenient, but I am too lazy to improve it.)
 
 ./DCFST/pytracking/evaluation/running.py
