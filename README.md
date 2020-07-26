@@ -47,6 +47,14 @@ I have writed them into the install.sh, just run it!
 
 *** NOTE *** I have tried my best to let everyone enjoy the above accuracy of DCFST accurately. The ATOM in pytracking is stochastic. In order to eliminate the randomness as much as possible, I make a small change to ATOM. For users, please ensure that the versions of softwares and environments you used are the same as above. There may be more version requirements and those are all I can think of so far.
 
+## RUN
+python run_tracker.py sbdt GOT10k --dataset 'gott'
+python run_tracker.py sbdt NfS --dataset 'nfs'
+python run_tracker.py sbdt OTB2015 --dataset 'otb'
+python run_tracker.py sbdt TrackingNet --dataset 'tn'
+python run_tracker.py sbdt50 GOT10k --dataset 'gott'
+python run_tracker.py sbdt50 TrackingNet --dataset 'tn'
+
 ## VOT RUN
 When you would like to run VOT2018 or VOT2019, please manually change the following two places. (In fact, it can be more convenient, but I am too lazy to improve it.)
 
