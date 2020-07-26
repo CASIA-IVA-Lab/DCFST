@@ -18,7 +18,7 @@ DCFST is a simple yet effective tracker. This project provides the training and 
 | Dataset    |  VOT2018 | VOT2019 | VOT2019 Real-Time |
 |------------|----------|---------|-------------------|
 |DCFST-18    |   41.6%  |  36.1%  |       31.7%       |
-|DCFST-50    |   45.2%  |    -    |         -         |
+|DCFST-50    |   46.0%  |    -    |         -         |
 
 ## Pretrained Models
 ```
