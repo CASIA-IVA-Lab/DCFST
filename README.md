@@ -50,7 +50,7 @@ I have writed them into the install.sh, just run it!
 ## RUN
 Running the following commonds to get the corresponding results.
 
-Please make sure that the running.py and tracker.py is for non-VOT challenge.
+Please make sure that the running.py and tracker.py files in ./DCFST/pytracking/evaluation/ is for non-VOT challenge. (See below section.)
 ```
 python run_tracker.py sbdt GOT10k --dataset 'gott'
 python run_tracker.py sbdt NfS --dataset 'nfs'
