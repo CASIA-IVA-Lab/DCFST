@@ -47,5 +47,21 @@ I have writed them into the install.sh, just run it!
 
 *** NOTE *** I have tried my best to let everyone enjoy the above accuracy of DCFST accurately. The ATOM in pytracking is stochastic. In order to eliminate the randomness as much as possible, I make a small change to ATOM. For users, please ensure that the versions of softwares and environments you used are the same as above. There may be more version requirements and those are all I can think of so far.
 
-## BTW
+##VOT RUN
+When you would like to run VOT2018 or VOT2019, please manually change the following two places. (In fact, it can be more convenient, but I am too lazy to improve it.)
+
+./DCFST/pytracking/evaluation/running.py
+```
+#run_sequence(seq, tracker_info, debug=debug) #except VOT
+run_sequence_vot(seq, tracker_info, debug=debug) #VOT challenge
+```
+./DCFST/pytracking/evaluation/tracker.py
+```
+#output_bb, execution_times = tracker.track_sequence(seq) #except VOT
+output_bb, execution_times = tracker.track_sequence_vot(seq) #VOT challenge
+```
+
+## About SBDT
 Please don't be confused by what I call the DCFST as SBDT in the code. In fact, I originally named the article of this work as "A Siample Baseline for Deep Tracking", thus I write code with the algorithm name SBDT. DCFST was the later changed article title and algorithm name, however, I do not change the name from SBDT to DCFST in the code overall, probably because I am lazy.
+
+## Advice
