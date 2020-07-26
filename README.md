@@ -61,6 +61,8 @@ run_sequence_vot(seq, tracker_info, debug=debug) #VOT challenge
 output_bb, execution_times = tracker.track_sequence_vot(seq) #VOT challenge
 ```
 
+Then, the output format of VOT Challenge will be generated.
+
 ## About SBDT
 Please don't be confused by what I call the DCFST as SBDT in the code. In fact, I originally named the article of this work as "A Siample Baseline for Deep Tracking", thus I write code with the algorithm name SBDT. DCFST was the later changed article title and algorithm name, however, I do not change the name from SBDT to DCFST in the code overall, probably because I am lazy.
 
