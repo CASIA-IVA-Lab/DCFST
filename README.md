@@ -47,6 +47,10 @@ I have writed them into the install.sh, just run it!
 
 *** NOTE *** I have tried my best to let everyone enjoy the above accuracy of DCFST accurately. The ATOM in pytracking is stochastic. In order to eliminate the randomness as much as possible, I make a small change to ATOM. For users, please ensure that the versions of softwares and environments you used are the same as above. There may be more version requirements and those are all I can think of so far.
 
+## Install Precise ROI pooling module
+
+Sure, like in pytracking, you also need to download the pytorch0.4.1 version of Precise ROI pooling, and place it in DCFST/ltr/external/PreciseRoIPooling/, and complie it.
+
 ## RUN
 Running the following commonds to get the corresponding results.
 
