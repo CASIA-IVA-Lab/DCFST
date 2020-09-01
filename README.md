@@ -96,3 +96,16 @@ Please don't be confused by what I call the DCFST as SBDT in the code. In fact, 
 
 ## Advice
 There are little differences between DCFST-18 tracker file and DCFST-50 tracker file. In fact, DCFST-18 tracker file, that is './DCFST/pytracking/tracker/sbdt/sbdt.py', was written casually in a hurry. In order to be as beautiful and logical as possible, I wrote DCFST-50 tracker file, that is './DCFST/pytracking/tracker/sbdt50/sbdt.py' afterwards. So, the DCFST-18 tracker file is only used to reproduce the reported tracking results of DCFST-18. If you are interested in reading or following this code, just pay attention to the DCFST-50 tracker file and feel free to discard the DCFST-18 tracker file.
+
+## Citation
+If you find this project useful for your research, please use the following BibTeX entry.
+
+```
+@InProceedings{zheng2020DCFST,
+author = {Zheng, Linyu and Tang, Ming and Chen, Yingying and Wang, Jinqiao and Lu, Hanqing},
+title = {Learning Feature Embeddings for Discriminant Model based Tracking},
+booktitle = {Proceedings of the European Conference on Computer Vision (ECCV)},
+month = {August},
+year = {2020}
+}
+```
